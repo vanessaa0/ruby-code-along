@@ -15,10 +15,10 @@
 }
 /* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+  font-family: 'zocial', icomoon;
 }
 @font-face {
-	font-family: 'icomoon';
+	font-family: 'script';
 	src:url('http://jlalovi-cv.herokuapp.com/font/icomoon.eot');
 	src:url('http://jlalovi-cv.herokuapp.com/font/icomoon.eot?#iefix') format('embedded-opentype'),
 		url('http://jlalovi-cv.herokuapp.com/font/icomoon.ttf') format('truetype'),
@@ -29,7 +29,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	font-family: 'icono';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -59,7 +59,7 @@
 }
 
 body {
-	background: #1f253d;
+	background-image: url("http://33.media.tumblr.com/tumblr_mcs6dvL0A21rcha6to1_500.gif")
 }
 
 ul {
@@ -69,11 +69,11 @@ ul {
 }
 
 h1 {
-	font-size: 23px;
+	font-size: 40px;
 }
 
 h2 {
-	font-size: 17px;
+	font-size: 25px;
 }
 
 p {
@@ -89,7 +89,7 @@ a {
 	}
 
 h1, h2, p, a, span{
-	color: #fff;
+	color: LightSteelBlue;
 }
 	.scnd-font-color {
 		color: #9099b7;
@@ -236,7 +236,7 @@ h1, h2, p, a, span{
 /** MAIN CONTAINER **/
 
 .main-container {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	width: 950px;
 	height: 1725px;
 	margin: 6em auto;
@@ -956,7 +956,7 @@ h1, h2, p, a, span{
 					padding: 10px 0;
 				}
 				.sign-in.button {
-					background: #e64c65;
+					background: #d8bfd8;
 					margin: 10px auto;
 				}
 					.sign-in.button:hover {
@@ -1067,7 +1067,7 @@ h1, h2, p, a, span{
 						height: 38px;						
 					}
 					.calendar .days-week {
-						color: #4fc4f6;
+						color: #FF00FF;
 					}
 					.calendar .today {
 						display: block;
